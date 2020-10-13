@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let i;
+    let j;
+    let multip;
+    multip = "<table border='0' width='800' cellspasing='1' cellpadding='3'> ";
+    for (let i = 1; i <=9 ; i++) {
+        multip += "<tr>";
+        for (let j = 2; j <=9 ; j++) {
+            multip += "<td>" +j +"x"+i+"="+i*j+"</td>";
+        }
+        multip += "</tr>";
+
+    }
+    multip += "</table>";
+    document.write(multip);
+</script>
+</body>
+</html>

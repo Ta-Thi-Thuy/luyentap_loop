@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a1 = 0;
+    let a2 = 1;
+    let cons = 0;
+    let fib= "0,1,";
+    let number = +prompt('Nhap so luong fibonacci can hien thi :');
+    for (let i=2;i<number;i++){
+        cons= a1;
+        a1= a2;
+        a2= cons + a1;
+        fib+= a1+a2+",";
+    }
+    document.write(fib)
+</script>
+
+</body>
+</html>
